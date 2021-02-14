@@ -16,7 +16,7 @@ class CreateAnnoncesimmobilieresTable extends Migration
         /**
          * Create the annoncesimmobilieres table with fields
          */
-        Schema::create('annoncesimmobilieres', function (Blueprint $table) {
+        Schema::create('annonce_immos', function (Blueprint $table) {
             $table->id();
             $table->string("ref_annonce");
             $table->float("prix_annonce");
